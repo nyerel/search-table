@@ -1,11 +1,11 @@
-package eu.nyerel.searchtable.api.model.query;
+package eu.nyerel.searchtable.api.model.filter.expression;
 
-import java.io.Serializable;
+import eu.nyerel.searchtable.api.model.filter.Operator;
 
 /**
  * @author Rastislav Papp (rastislav.papp@gmail.com)
  */
-public class Condition implements Serializable {
+public class AttributeExpression implements Expression {
 
     private String property;
     private Operator operator;

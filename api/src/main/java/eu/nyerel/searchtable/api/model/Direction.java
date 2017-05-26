@@ -5,7 +5,7 @@ package eu.nyerel.searchtable.api.model;
  */
 public enum Direction {
 
-    ASCENDING,
-    DESCENDING
+    ASC,
+    DESC
 
 }

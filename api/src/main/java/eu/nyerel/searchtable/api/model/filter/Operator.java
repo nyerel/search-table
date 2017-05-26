@@ -1,4 +1,4 @@
-package eu.nyerel.searchtable.api.model.query;
+package eu.nyerel.searchtable.api.model.filter;
 
 /**
  * @author Rastislav Papp (rastislav.papp@gmail.com)
@@ -7,8 +7,6 @@ public enum Operator {
 
     EQUALS,
     NOT_EQUALS,
-    CONTAINS,
-    NOT_CONTAINS,
     IN,
     NOT_IN,
     GREATER,

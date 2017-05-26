@@ -11,6 +11,10 @@
     </parent>
 
     <artifactId>search-table-core</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>core-spring-jpa</module>
+    </modules>
 
 </project>

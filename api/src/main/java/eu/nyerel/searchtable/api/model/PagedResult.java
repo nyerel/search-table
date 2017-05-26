@@ -1,11 +1,12 @@
 package eu.nyerel.searchtable.api.model;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * @author Rastislav Papp (rastislav.papp@gmail.com)
  */
-public class PagedResult<T> {
+public class PagedResult<T> implements Serializable {
 
     private int totalPages;
     private long totalItems;
